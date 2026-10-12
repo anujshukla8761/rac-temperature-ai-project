@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+artifacts/*.json
+reports/metrics.json
+reports/test_predictions.csv
+reports/actual_vs_predicted_*.png
+.streamlit/
+
+# Local archives and secrets
+rac_temperature_ai_project_complete*.zip
+.env
+.env.*
+!.env.example
+**/secrets.toml
+data/uploads/
+data/user_uploads/
